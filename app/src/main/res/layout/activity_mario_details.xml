@@ -50,9 +50,6 @@
     <ImageButton
         android:id="@+id/button_back"
         style="@style/BackButtonStyle"
-
-
-
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
