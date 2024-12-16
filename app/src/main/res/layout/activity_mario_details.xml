@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D4FAA"
+    tools:context=".ActivityMarioDeTails">
+
+    <!-- Imagen del personaje -->
+    <ImageView
+        android:id="@+id/imageview_mario_details"
+        android:layout_width="222dp"
+        android:layout_height="194dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@id/textview_mario_name_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintWidth_percent="0.8"
+        app:srcCompat="@drawable/mario_bros_kart" />
+e
+    <!-- Nombre del personaje -->
+    <TextView
+        android:id="@+id/textview_mario_name_details"
+        style="@style/CharacterTextName_DetailsActivity_Style"
+        app:layout_constraintTop_toBottomOf="@id/imageview_mario_details"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <!-- Descripción del personaje -->
+    <TextView
+        android:id="@+id/textview_mario_description_details"
+        style="@style/CharacterDescription_DetailsActivity_Style"
+        app:layout_constraintTop_toBottomOf="@id/textview_mario_name_details"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Habilidades del personaje -->
+    <TextView
+        android:id="@+id/textview_mario_skills_details"
+        style="@style/CharacterSkills_DetailsActivity_Style"
+        app:layout_constraintTop_toBottomOf="@id/textview_mario_description_details"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Boton de retroceso -->
+    <ImageButton
+        android:id="@+id/button_back"
+        style="@style/BackButtonStyle"
+
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

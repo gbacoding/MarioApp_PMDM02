@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">PMDM Tarea 2</string>
+
+    <!--Nombres de los Personajes-->
+    <string name="mario_name">Mario</string>
+    <string name="luigi_name">Luigi</string>
+    <string name="peach_name">Peach</string>
+    <string name="toad_name">Toad</string>
+
+    <!--Content Descrciption para las imagenes -->
+    <string name="mario_image_description">Imagen de Mario</string>
+    <string name="back_button_description">Go back to the main screen</string>
+
+
+    <!-- Array con el listado de personajes -->
+    <string-array name="array_characters">
+        <item>Mario</item>
+        <item>Luigi</item>
+        <item>Peach</item>
+        <item>Toad</item>
+    </string-array>
+
+    <!-- Descripciones pantalla de detalles -->
+    <string-array name="array_character_descriptions">
+        <item>Fontanero Italiano del Reino Champiñon. Archienemigo del malvado Bowser.</item>
+        <item>Hermano de Mario, conocido por su valentía y ser un poco miedoso.</item>
+        <item>La princesa del Reino Champiñón, siempre dispuesta a ayudar a Mario.</item>
+        <item>Un pequeño, valiente y servicial habitante del Reino Champiñón.</item>
+    </string-array>
+
+    <!-- Habilidades pantalla de detalles -->
+    <string-array name="array_character_skills">
+        <item>Habilidades:\n\n1. Salto.\n2. Bola de fuego.\n3. Super Estrella.</item>
+        <item>Habilidades:\n\n1. Salto alto.\n2. Super Rastro.\n3. Superman.</item>
+        <item>Habilidades:\n\n1. Super Salto.\n2. Ayuda a Mario.\n3. Protección.</item>
+        <item>Habilidades:\n\n1. Velocidad.\n2. Gran capacidad de salto.\n3. Ayuda a Mario en apuros.</item>
+    </string-array>
+
+    <!-- Flecha retroceso -->
+    <string name="flecha_retroceso">←</string>
+
+    <!-- Menu Contextual -->
+    <string name="acerca_de">Acerca de...</string>
+
+</resources>
